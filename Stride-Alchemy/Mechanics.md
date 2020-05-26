@@ -6,7 +6,7 @@ The player will be stranded in a building where solving puzzle will help him esc
 
 Solving puzzle can be undestood differently :
 
-* The player reached a zone after creating a path by objects around.
+* The player reached a zone after creating a path by moving objects around.
 
 * The player changed the state of the environment to a state that would be understood as a solution to the puzzle.
 
@@ -35,6 +35,9 @@ The game will introduce the concepts of temperature, conductivity and magnetic f
 * Magnetic conductivity : How much an object resists a magnetic field. (float)
 
 * Electric conductivity : If an object can conduct electricity (bool)
+
+These various parameters could also change the way the materials look by using shaders and textures.
+
 
 ### The gun
 

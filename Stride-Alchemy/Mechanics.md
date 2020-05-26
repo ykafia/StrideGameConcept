@@ -30,14 +30,13 @@ The game will introduce the concepts of temperature, conductivity and magnetic f
 
 * A material type : Metallic, Wood, Mineral, Ice etc. This will help make a simple rule system deciding how an object can be interacted with. (e.g. : Metallic objects can be influenced with magnetic fields but not burn, Wood can turn into fire but does not react to any magnetic field) (Enum)
 
-* Thermal informations : Actual temperature, thermal conductivity and change of state temperature defining the temperature at which wood/ice would start to burn/melt. (float, float,)
+* Thermal informations : Actual temperature, thermal conductivity and change of state temperature defining the temperature at which wood/ice would start to burn/melt. (float, float, float)
 
 * Magnetic conductivity : How much an object resists a magnetic field. (float)
 
 * Electric conductivity : If an object can conduct electricity (bool)
 
 These various parameters could also change the way the materials look by using shaders and textures.
-
 
 ### The gun
 
